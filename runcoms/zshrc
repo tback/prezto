@@ -14,3 +14,5 @@ fi
 if [[ -x /usr/bin/xdg-open ]]; then
     alias open=xdg-open
 fi
+
+alias fuck='$(thefuck $(fc -ln -1))'
